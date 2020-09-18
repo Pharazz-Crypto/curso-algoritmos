@@ -7,7 +7,7 @@ distancia3 = float(input())
 
 if distancia1 > distancia2 and distancia1 > distancia3:
 	maior = distancia1
-elif distancia2 > distancia1 and distancia2 > distancia3:
+elif distancia2 > distancia3:
 	maior = distancia2
 else:
 	maior = distancia3
